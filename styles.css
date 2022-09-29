@@ -1,0 +1,16 @@
+.button {
+    border-style:groove;
+    border-color: darkcyan;
+    background-color: cyan;
+}
+
+.button::before {
+    content: 'Pasa por encima';
+}
+.button:hover {
+    color: white;
+    background-color: green;
+}
+.button:hover:before {
+    content: '¡Hecho!';
+}
